@@ -163,28 +163,6 @@ export const MAIN_CATEGORIES: Category[] = [
           },
         ]
       },
-                  { 
-        id: 'l1-m5', 
-        title: 'Materi 5 JK Mengelola Kontrak PBJP Level 1', 
-        resources: [
-          { 
-            format: 'Modul', 
-            pages: generatePages('/PBJP LEVEL 1/Materi 5 JK Mengelola Kontrak PBJP Level 1/Modul 5 JK Mengelola Kontrak PBJP Level 1', 61) 
-          },
-          { 
-            format: 'Slide', 
-            pages: generatePages('/PBJP LEVEL 1/Materi 5 JK Mengelola Kontrak PBJP Level 1/Slide 5 JK Mengelola Kontrak PBJP Level 1', 47) 
-          },
-          { 
-            format: 'Mind Map', 
-            pages: generatePages('/PBJP LEVEL 1/Materi 5 JK Mengelola Kontrak PBJP Level 1/Mind Map 5 JK Mengelola Kontrak PBJP Level 1', 6) 
-          },
-          { 
-            format: 'Suplemen', 
-            pages: generatePages('/PBJP LEVEL 1/Materi 5 JK Mengelola Kontrak PBJP Level 1/Suplemen Modul 5 JK Mengelola Kontrak PBJP Level 1', 15) 
-          },
-        ]
-      },
       { 
         id: 'l1-m7', 
         title: 'Materi Tambahan (Pengembangan Kurikulum)', 
