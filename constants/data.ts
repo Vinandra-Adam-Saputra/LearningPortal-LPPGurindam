@@ -364,7 +364,7 @@ export const MAIN_CATEGORIES: Category[] = [
             }
           },
           {
-            id: 'v-pbjp-ne3',
+            id: 'v-pbjp-3',
             title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 2',
             directResource: {
               format: 'Video',
@@ -530,14 +530,6 @@ export const MAIN_CATEGORIES: Category[] = [
             directResource: {
               format: 'Video',
               driveId: '1JYdE9tlhhBsg_1kc4jc0BhknffWsNRBx' 
-            }
-          },
-          {
-            id: 'v-ppk-c-7',
-            title: 'Materi 2 Jenis Kompetensi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 PART 4',
-            directResource: {
-              format: 'Video',
-              driveId: '14kXx5th1R5lmhBJWWZGQpS40QzCzFbV-' 
             }
           },
           {
