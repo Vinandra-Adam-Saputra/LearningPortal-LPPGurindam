@@ -11,7 +11,7 @@ export const NAV_LINKS: NavLink[] = [
 export const STATS: Stat[] = [
   { value: '12+', label: 'Modul Pembelajaran' },
   { value: '50+', label: 'Dokumen Pendukung' },
-  { value: '3', label: 'Video E-Learning' },
+  { value: '30+', label: 'Video Pembelajaran' },
   { value: '1000+', label: 'Peserta Terdaftar' },
 ];
 
@@ -333,9 +333,344 @@ export const MAIN_CATEGORIES: Category[] = [
     icon: PlayCircle,
     gradient: 'from-rose-600 to-red-700',
     topics: [
-      { id: 'v-1', title: 'Panduan E-Learning PPK Tipe B', directResource: { format: 'Video', videoUrl: '/Video/PANDUAN ELEARNING PPK TIPE B/PEMBELAJARAN ELEARNING PPK TIPE B.mp4' } },
-      { id: 'v-2', title: 'Panduan E-Learning PPK Tipe C', directResource: { format: 'Video', videoUrl: '/Video/PANDUAN ELEARNING PPK TIPE C/PEMBELAJARAN ELEARNING PPK TIPE C.mp4' } },
-      { id: 'v-3', title: 'Pembelajaran E-Learning PBJ LEVEL 1', directResource: { format: 'Video', videoUrl: '/Video/PEMBELAJARAN ELEARNING PBJ LEVEL1/Pembelajaran elearning PBJ Level1.mp4' } }
+      // Folder untuk PBJ Level 1
+      {
+        id: 'pbjp-l1-videos',
+        title: 'Video Pembelajaran PBJ Level 1',
+        isFolder: true,
+        subTopics: [
+          {
+            id: 'v-2',
+            title: 'Panduan E-Learning PPBJ Level 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1ZyKwVinAxuK5-eGE6ifWzfmN-GeK-L4v'
+            }
+          },
+          {
+            id: 'v-pbjp-1',
+            title: 'Materi 1 Pengantar Manajemen Rantai Pasok',
+            directResource: {
+              format: 'Video',
+              driveId: '13DMlLGe-XF8S4cnntHVMhv6rrBpStCnc' 
+            }
+          },
+          {
+            id: 'v-pbjp-2',
+            title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1m7_5mJXOZNkydT8rPgSlkUMjPaAgjT6A' 
+            }
+          },
+          {
+            id: 'v-pbjp-ne3',
+            title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1ceS94D1JXlZpFpZia-ObqkkKUBOwGCxg' 
+            }
+          },
+          {
+            id: 'v-pbjp-4',
+            title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1Xy_04Exuoy4c3JfpV_DVYTo2ACF4tGBz' 
+            }
+          },
+          {
+            id: 'v-pbjp-5',
+            title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 4',
+            directResource: {
+              format: 'Video',
+              driveId: '1AFwe7dGQeIaJiYPeCkxPlrNNXyY_mJPs' 
+            }
+          },
+          {
+            id: 'v-pbjp-6',
+            title: 'Materi 3 Perencanaan Pengadaan Barang dan Jasa Pemerintah PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1fHoay3QQJt5oyK_atTxumNRhy4512LeZ' 
+            }
+          },
+          {
+            id: 'v-pbjp-7',
+            title: 'Materi 3 Perencanaan Pengadaan Barang dan Jasa Pemerintah PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1MI3VzT6dSEYCQPbrFSP70PTDymLmRAfa' 
+            }
+          },
+          {
+            id: 'v-pbjp-8',
+            title: 'Materi 3 Perencanaan Pengadaan Barang dan Jasa Pemerintah PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1JpYOSv8X4TWa2Bx-Sl6q5VELBYtePD5I' 
+            }
+          },
+          {
+            id: 'v-pbjp-9',
+            title: 'Materi 4 Pemilihan Penyedia Barang dan Jasa Pemerintah PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1poaiMJOAMrnchLsAQsU9rkEL_mX1iT-C' 
+            }
+          },
+          {
+            id: 'v-pbjp-10',
+            title: 'Materi 4 Pemilihan Penyedia Barang dan Jasa Pemerintah PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '17yUkCKO8skPdbIxt-x8_AjbLl3VgNDXe' 
+            }
+          },
+          {
+            id: 'v-pbjp-11',
+            title: 'Materi 4 Pemilihan Penyedia Barang dan Jasa Pemerintah PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1I6gjQwAQxSLg_u2B9KEp6UhdvQIoKkv4' 
+            }
+          },
+          {
+            id: 'v-pbjp-12',
+            title: 'Materi 5 Pengelolaan Kontrak Pengadaan Barang dan Jasa Pemerintah PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1Ao3w4XMnks2hn5Y7zzpcdNVT-hxWrIDM' 
+            }
+          },
+          {
+            id: 'v-pbjp-13',
+            title: 'Materi 5 Pengelolaan Kontrak Pengadaan Barang dan Jasa Pemerintah PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1bAD34YhlTaujdTvrUdRi_l3Lv-IHmndK' 
+            }
+          },
+          {
+            id: 'v-pbjp-14',
+            title: 'Materi 6 Pengelolaan Pengadaan Barang dan Jasa Pemerintah Secara Swakelola PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1D-XaZnwcNe2vkzJNhACHXaNk9GT6tZvl' 
+            }
+          },
+          {
+            id: 'v-pbjp-15',
+            title: 'Materi 6 Pengelolaan Pengadaan Barang dan Jasa Pemerintah Secara Swakelola PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '11npDN7HGEjlzxEOl6j5C-XUlBSMyRMba' 
+            }
+          },   
+          
+        ]
+      },
+      // Folder untuk PPK Tipe C
+      {
+        id: 'ppk-c-videos',
+        title: 'Video Pembelajaran PPK Tipe C',
+        isFolder: true,
+        subTopics: [
+          {
+            id: 'v-3',
+            title: 'Panduan E-Learning PPK Tipe C',
+            directResource: {
+              format: 'Video',
+              driveId: '1X_2_WXhkavcX28yIep3-wOO4XXngyiSX'
+            }
+          },
+          {
+            id: 'v-ppk-c-1',
+            title: 'Materi 1 Jenis Kompetensi Melakukan Perencanaan Pengadaan Barang dan Jasa Pemerintah Level 2 PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1C9_W_yWVIa8ZM2LxNkOfHsU0AdnOx1Sj' 
+            }
+          },
+                    {
+            id: 'v-ppk-c-2',
+            title: 'Materi 1 Jenis Kompetensi Melakukan Perencanaan Pengadaan Barang dan Jasa Pemerintah Level 2 PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1EOQX3mpmHd-oZ_e5xpr-5TsWA2iW0JKS' 
+            }
+          },
+          {
+            id: 'v-ppk-c-3',
+            title: 'Materi 1 Jenis Kompetensi Melakukan Perencanaan Pengadaan Barang dan Jasa Pemerintah Level 2 PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '15e1jrLOF6trtKtrk2jKEgxb9BrhJwvkf' 
+            }
+          },
+          {
+            id: 'v-ppk-c-4',
+            title: 'Materi 2 Jenis Kompetensi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1lLXWHYOrXbgn3IZzq5OIZsOqjbpvMbh1' 
+            }
+          },
+          {
+            id: 'v-ppk-c-5',
+            title: 'Materi 2 Jenis Kompetensi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '12NXjyL66qUdCmUsKYqD2UsyMKc443l4i' 
+            }
+          },
+          {
+            id: 'v-ppk-c-6',
+            title: 'Materi 2 Jenis Kompetensi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1JYdE9tlhhBsg_1kc4jc0BhknffWsNRBx' 
+            }
+          },
+          {
+            id: 'v-ppk-c-7',
+            title: 'Materi 2 Jenis Kompetensi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 PART 4',
+            directResource: {
+              format: 'Video',
+              driveId: '14kXx5th1R5lmhBJWWZGQpS40QzCzFbV-' 
+            }
+          },
+          {
+            id: 'v-ppk-c-7',
+            title: 'Materi 2 Jenis Kompetensi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 PART 4',
+            directResource: {
+              format: 'Video',
+              driveId: '14kXx5th1R5lmhBJWWZGQpS40QzCzFbV-' 
+            }
+          },
+          {
+            id: 'v-ppk-c-8',
+            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1c_bKFwgfLrXmFmUjGuTbbH5Pddxu8WNz' 
+            }
+          },
+          {
+            id: 'v-ppk-c-9',
+            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1FtOLh4IqrEx4g9mbLZKHJe4UgJnDPjl0' 
+            }
+          },
+          {
+            id: 'v-ppk-c-10',
+            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 3',
+            directResource: {
+              format: 'Video',
+              driveId: '16G0N2s4-AwaVEWJH3fEuLOhZsyxHjGnd' 
+            }
+          },
+          {
+            id: 'v-ppk-c-11',
+            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 4',
+            directResource: {
+              format: 'Video',
+              driveId: '151IwPP6XhQfgcVIGrXOf5T4LrOLJJVnE' 
+            }
+          },
+          {
+            id: 'v-ppk-c-12',
+            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 5',
+            directResource: {
+              format: 'Video',
+              driveId: '18tWngnnHfZ5gwJdA2oIvZJbiK-Pqk7bf' 
+            }
+          }
+
+        ]
+      },
+      // Folder untuk PPK Tipe B
+      {
+        id: 'ppk-b-videos',
+        title: 'Video Pembelajaran PPK Tipe B',
+        isFolder: true,
+        subTopics: [
+          {
+            id: 'v-1',
+            title: 'Panduan E-Learning PPK Tipe B',
+            directResource: {
+              format: 'Video',
+              driveId: '1FpLHYgBaCb0MNxKMQsHntYgNwUwET0pY'
+            }
+          },
+          {
+            id: 'v-ppk-b-1',
+            title: 'Materi 1 JK Melakukan Perencanaan PBJP Level 3 PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1FVSrf7S7eo_rVB9xQOfaBGm_qP4l3pNr'
+            }
+          },
+          {
+            id: 'v-ppk-b-2',
+            title: 'Materi 1 JK Melakukan Perencanaan PBJP Level 3 PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1n8PAA2VsYEt6fVziTk1qXJQVyObl7_Q3'
+            }
+          },
+          {
+            id: 'v-ppk-b-3',
+            title: 'Materi 1 JK Melakukan Perencanaan PBJP Level 3 PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1Z54NBKaYp364IC7MqskPobSfoU2UWB1n'
+            }
+          },
+          {
+            id: 'v-ppk-b-4',
+            title: 'Materi 2 JK Melakukan Perencanaan PBJP Level 3 PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1GSCp5XqlxeGVyq-H3prgXVtSJZ0EmZI2'
+            }
+          },
+          {
+            id: 'v-ppk-b-5',
+            title: 'Materi 2 JK Melakukan Perencanaan PBJP Level 3 PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1EI69kRu_wPTj1wt7ttuRUOHrX_nKwlhP'
+            }
+          },
+          {
+            id: 'v-ppk-b-6',
+            title: 'Materi 2 JK Melakukan Perencanaan PBJP Level 3 PART 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1QargPnq7oxyo2r1aXoCDH6RTxL18H6u1'
+            }
+          },
+          {
+            id: 'v-ppk-b-7',
+            title: 'Materi 3 JK Melakukan Perencanaan PBJP Level 3 PART 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1OYp6IBe7SP6l8rQ2s3W6epolTKaMNu5J'
+            }
+          },
+          {
+            id: 'v-ppk-b-8',
+            title: 'Materi 3 JK Melakukan Perencanaan PBJP Level 3 PART 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1A8a6BTQ1vhzGaI9IyqYKFfxsbLXCp-b9'
+            }
+          }
+        ]
+      }
     ]
   }
 ];

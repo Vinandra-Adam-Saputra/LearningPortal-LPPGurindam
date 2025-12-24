@@ -7,7 +7,7 @@ export interface ResourceData {
   format: ContentFormat;
   pages?: string[]; // For slides/images
   fileUrl?: string; // For PDF download or Direct link
-  videoUrl?: string; // For Video playback
+  driveID?: string; // For Video playback
   fileSize?: string;
   updatedAt?: string;
 }
@@ -16,7 +16,7 @@ export interface TopicItem {
   id: string;
   title: string;
   description?: string;
-  isFolder?: boolean; // If true, it contains sub-topics
+  isFolder?: boolean; 
   subTopics?: TopicItem[]; 
   resources?: ResourceData[]; // Available formats for this topic (Modul, Slide, etc.)
   directResource?: ResourceData; // For items like Perpres that go straight to viewer

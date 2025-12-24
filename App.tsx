@@ -286,7 +286,7 @@ const App: React.FC = () => {
                   >
                     <div className="flex items-center space-x-4">
                       <div className={`p-3 rounded-xl ${topic.isFolder ? 'bg-amber-50 text-amber-600' : 'bg-primary-50 text-primary-600'} group-hover:scale-110 transition-transform`}>
-                        {topic.isFolder ? <FolderOpen className="w-6 h-6" /> : (activeCategory.id === 'video-elearning' ? <Play className="w-6 h-6" /> : <FileText className="w-6 h-6" />)}
+                        {topic.isFolder ? <FolderOpen className="w-6 h-6" /> : (activeCategory.id === 'video-elearning' || topic.directResource?.format === 'Video' ? <Play className="w-6 h-6" /> : <FileText className="w-6 h-6" />)}
                       </div>
                       <div className="text-left">
                         <h4 className="font-bold text-gray-900 leading-snug">{topic.title}</h4>
@@ -343,12 +343,17 @@ const App: React.FC = () => {
                   </h2>
                 </div>
               </div>
-
-              {selectedResource.format === 'Video' ? (
-                <div className="bg-black rounded-[2.5rem] overflow-hidden shadow-2xl aspect-video border-8 border-slate-900">
-                  <video controls className="w-full h-full" src={selectedResource.videoUrl}>
-                    Browser Anda tidak mendukung video.
-                  </video>
+        {selectedResource.format === 'Video' ? (
+          <div className="bg-black rounded-[2.5rem] overflow-hidden shadow-2xl aspect-video border-8 border-slate-900">
+            <iframe
+              className="w-full h-full"
+              // Perubahan Utama: URL Preview Google Drive + ID
+              src={`https://drive.google.com/file/d/${selectedResource.driveId}/preview`}
+              allow="autoplay; encrypted-media; fullscreen"
+              allowFullScreen
+              title="Video Player"
+              style={{ border: 0 }}
+            />
                 </div>
               ) : (
                 <div className="space-y-6">
