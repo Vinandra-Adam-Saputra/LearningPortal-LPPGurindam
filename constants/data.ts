@@ -352,7 +352,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 1 Pengantar Manajemen Rantai Pasok',
             directResource: {
               format: 'Video',
-              driveId: '13DMlLGe-XF8S4cnntHVMhv6rrBpStCnc' 
+              driveId: '1LoBfezqd12By9YuEDRs-yNTVxn7U2suo' 
             }
           },
           {
@@ -360,7 +360,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1m7_5mJXOZNkydT8rPgSlkUMjPaAgjT6A' 
+              driveId: '1r5gh9LuFdDv0Xca8b92CxDpC4lr61t_-' 
             }
           },
           {
@@ -368,7 +368,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 2',
             directResource: {
               format: 'Video',
-              driveId: '1ceS94D1JXlZpFpZia-ObqkkKUBOwGCxg' 
+              driveId: '13XDSB7Fcclw8RzFmXv47dq-_EL15hLGi' 
             }
           },
           {
@@ -376,7 +376,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 3',
             directResource: {
               format: 'Video',
-              driveId: '1Xy_04Exuoy4c3JfpV_DVYTo2ACF4tGBz' 
+              driveId: '1eMBy4MV_RUurr2e4BFkobPcrehjPrOhN' 
             }
           },
           {
@@ -384,7 +384,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 Pengantar Pengadaan Barang dan Jasa Pemerintah PART 4',
             directResource: {
               format: 'Video',
-              driveId: '1AFwe7dGQeIaJiYPeCkxPlrNNXyY_mJPs' 
+              driveId: '12McZXwEC9HYpm13pUtxLkTvVj8n0cXEt' 
             }
           },
           {
@@ -392,7 +392,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 3 Perencanaan Pengadaan Barang dan Jasa Pemerintah PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1fHoay3QQJt5oyK_atTxumNRhy4512LeZ' 
+              driveId: '1pA9w2h_apgjeiQqPIsCCr6DixF3zYAYo' 
             }
           },
           {
@@ -400,7 +400,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 3 Perencanaan Pengadaan Barang dan Jasa Pemerintah PART 2',
             directResource: {
               format: 'Video',
-              driveId: '1MI3VzT6dSEYCQPbrFSP70PTDymLmRAfa' 
+              driveId: '1W_g2WDwX07TGhnAcQdByZ235XX0zV120' 
             }
           },
           {
@@ -408,7 +408,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 3 Perencanaan Pengadaan Barang dan Jasa Pemerintah PART 3',
             directResource: {
               format: 'Video',
-              driveId: '1JpYOSv8X4TWa2Bx-Sl6q5VELBYtePD5I' 
+              driveId: '1BeguLDbkQcfVRNJSJk6ZXGtOPiX4NWR6' 
             }
           },
           {
@@ -416,7 +416,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 4 Pemilihan Penyedia Barang dan Jasa Pemerintah PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1poaiMJOAMrnchLsAQsU9rkEL_mX1iT-C' 
+              driveId: '1QT867GM-WhvPBy-HrMbWYrK0uL6Wq7ZO' 
             }
           },
           {
@@ -424,7 +424,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 4 Pemilihan Penyedia Barang dan Jasa Pemerintah PART 2',
             directResource: {
               format: 'Video',
-              driveId: '17yUkCKO8skPdbIxt-x8_AjbLl3VgNDXe' 
+              driveId: '1PL4DrtuvIF7TWjx9gjB5GMdiUj2DzTIK' 
             }
           },
           {
@@ -432,7 +432,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 4 Pemilihan Penyedia Barang dan Jasa Pemerintah PART 3',
             directResource: {
               format: 'Video',
-              driveId: '1I6gjQwAQxSLg_u2B9KEp6UhdvQIoKkv4' 
+              driveId: '1DfRoIK824HZCyFF7OoSKqeyGeh1nTWge' 
             }
           },
           {
@@ -440,7 +440,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 5 Pengelolaan Kontrak Pengadaan Barang dan Jasa Pemerintah PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1Ao3w4XMnks2hn5Y7zzpcdNVT-hxWrIDM' 
+              driveId: '1OHhF1fEPuROPyUTiHPAVTBzmNatWgtZq' 
             }
           },
           {
@@ -448,7 +448,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 5 Pengelolaan Kontrak Pengadaan Barang dan Jasa Pemerintah PART 2',
             directResource: {
               format: 'Video',
-              driveId: '1bAD34YhlTaujdTvrUdRi_l3Lv-IHmndK' 
+              driveId: '1O3BHP04IgCcLrovgpTtILVTUf_jUqczQ' 
             }
           },
           {
@@ -456,7 +456,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 6 Pengelolaan Pengadaan Barang dan Jasa Pemerintah Secara Swakelola PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1D-XaZnwcNe2vkzJNhACHXaNk9GT6tZvl' 
+              driveId: '10xiGjnwygLKCUB8NPNoqCGWM-M8CHEAe' 
             }
           },
           {
@@ -464,7 +464,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 6 Pengelolaan Pengadaan Barang dan Jasa Pemerintah Secara Swakelola PART 2',
             directResource: {
               format: 'Video',
-              driveId: '11npDN7HGEjlzxEOl6j5C-XUlBSMyRMba' 
+              driveId: '1qus_yORi-iVcducx8L2lQibyJwoH9BMt' 
             }
           },   
           
