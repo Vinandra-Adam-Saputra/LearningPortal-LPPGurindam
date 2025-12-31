@@ -348,6 +348,38 @@ export const MAIN_CATEGORIES: Category[] = [
             }
           },
           {
+            id: 'v-3',
+            title: 'Apa Itu PBJP?',
+            directResource: {
+              format: 'Video',
+              driveId: '15CWLqRs5G9LPhpyKlrrop-lvpLnYoYOX' 
+            }
+          },
+          {
+            id: 'v-4',
+            title: 'Jenis-Jenis PBJP',
+            directResource: {
+              format: 'Video',
+              driveId: '1psrBxFyjQCkMhCYbk1lUqaASaHdOQtDw' 
+            }
+          },
+          {
+            id: 'v-5',
+            title: 'Pelaku PBJP',
+            directResource: {
+              format: 'Video',
+              driveId: '1gIHF0MuNJFnReed4kT2zJVRtmNN04pFb' 
+            }
+          },
+          {
+            id: 'v-6',
+            title: 'Apa Itu E-Katalog?',
+            directResource: {
+              format: 'Video',
+              driveId: '1rxJTe0nEtn9b0Q9Jguz3yXgGY-wFPgGj' 
+            }
+          },
+          {
             id: 'v-pbjp-1',
             title: 'Materi 1 Pengantar Manajemen Rantai Pasok',
             directResource: {
@@ -466,8 +498,31 @@ export const MAIN_CATEGORIES: Category[] = [
               format: 'Video',
               driveId: '1qus_yORi-iVcducx8L2lQibyJwoH9BMt' 
             }
+          },
+          {
+            id: 'v-pbjp-16',
+            title: 'Latihan Soal PBJP Materi 1 Part 1',
+            directResource: {
+              format: 'Video',
+              driveId: '1X16E1MK9S5z8Wk6APmXYoFWhnPAj3XhY' 
+            }
+          }, 
+          {
+            id: 'v-pbjp-17',
+            title: 'Latihan Soal PBJP Materi 1 Part 2',
+            directResource: {
+              format: 'Video',
+              driveId: '1V7iqxV5YNZ1MNHzVyPX0Q7fxvbSsGviw' 
+            }
           },   
-          
+          {
+            id: 'v-pbjp-18',
+            title: 'Latihan Soal PBJP Materi 1 Part 3',
+            directResource: {
+              format: 'Video',
+              driveId: '1Y1Av_-Blxym1PDaOQMeBXo-03OZ9DUga' 
+            }
+          },          
         ]
       },
       // Folder untuk PPK Tipe C
@@ -595,6 +650,46 @@ export const MAIN_CATEGORIES: Category[] = [
             directResource: {
               format: 'Video',
               driveId: '1FpLHYgBaCb0MNxKMQsHntYgNwUwET0pY'
+            }
+          },
+          {
+            id: 'v-2',
+            title: 'Apa itu Spesifikasi Teknis dan KAK?',
+            directResource: {
+              format: 'Video',
+              driveId: '17Ed6vxsWOtn87hk5jkKk3Gshafu2vW-G'
+            }
+          },
+          {
+            id: 'v-3',
+            title: 'Kesalahan Umum dalam Penyusunan Spesifikasi Teknis',
+            directResource: {
+              format: 'Video',
+              driveId: '1Xi0BF_O0oAEewhmVqscWZBlsfBU8QDsx'
+            }
+          },
+          {
+            id: 'v-4',
+            title: 'Analisis Pasar dalam Penyusunan Spesifikasi Teknis dan KAK',
+            directResource: {
+              format: 'Video',
+              driveId: '1CScR-q61nFFe4brk_zvEJp6xkvyvqCe8'
+            }
+          },
+          {
+            id: 'v-5',
+            title: 'Barang yang Wajib Memenuhi Standar Nasional Indonesia (SNI)',
+            directResource: {
+              format: 'Video',
+              driveId: '1-hFJU-obO7ShuyDyyjW8zjp71HSPpUdl'
+            }
+          },
+          {
+            id: 'v-6',
+            title: 'Konsep Dasar Perkiraan Harga (HPS)',
+            directResource: {
+              format: 'Video',
+              driveId: '1tfowDNMNvI98Icnlt63E-3vAttVPCw51'
             }
           },
           {
