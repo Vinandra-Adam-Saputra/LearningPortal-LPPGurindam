@@ -597,42 +597,42 @@ export const MAIN_CATEGORIES: Category[] = [
           },
           {
             id: 'v-ppk-c-8',
-            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 1',
+            title: 'Materi 3 Jenis Kompetensi Mengelola PBJP secara Swakelola Level 2 Part 1',
             directResource: {
               format: 'Video',
-              driveId: '1c_bKFwgfLrXmFmUjGuTbbH5Pddxu8WNz' 
+              driveId: '1jF3RTinOssx8CTVhqZiTOcjWAtggm8yV' 
             }
           },
           {
             id: 'v-ppk-c-9',
-            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 2',
+            title: 'Materi 3 Jenis Kompetensi Mengelola PBJP secara Swakelola Level 2 Part 2',
             directResource: {
               format: 'Video',
-              driveId: '1FtOLh4IqrEx4g9mbLZKHJe4UgJnDPjl0' 
+              driveId: '1TZ8ik5hy9h2KKRy8OQ1_0XEvPcq2S1_g' 
             }
           },
           {
             id: 'v-ppk-c-10',
-            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 3',
+            title: 'Materi 3 Jenis Kompetensi Mengelola PBJP secara Swakelola Level 2 Part 3',
             directResource: {
               format: 'Video',
-              driveId: '16G0N2s4-AwaVEWJH3fEuLOhZsyxHjGnd' 
+              driveId: '1_WX4r67kb6g8VmjdwytYl1_03itpGhEp' 
             }
           },
           {
             id: 'v-ppk-c-11',
-            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 4',
+            title: 'Materi 3 Jenis Kompetensi Mengelola PBJP secara Swakelola Level 2 Part 4',
             directResource: {
               format: 'Video',
-              driveId: '151IwPP6XhQfgcVIGrXOf5T4LrOLJJVnE' 
+              driveId: '1Gg-5AdD8u9TfAvSOf8SU9SAdoOdKYX0G' 
             }
           },
           {
             id: 'v-ppk-c-12',
-            title: 'Materi 3 Jenis Kompetisi Mengelola Kontrak Pengadaan Barang dan Jasa Pemerintah Level 2 part 5',
+            title: 'Materi 3 Jenis Kompetensi Mengelola PBJP secara Swakelola Level 2 Part 5',
             directResource: {
               format: 'Video',
-              driveId: '18tWngnnHfZ5gwJdA2oIvZJbiK-Pqk7bf' 
+              driveId: '1Jt_0d9vN599ugiuqOOQB_nCv7isqnwmu' 
             }
           }
 
