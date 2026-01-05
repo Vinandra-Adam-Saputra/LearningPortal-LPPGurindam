@@ -571,6 +571,14 @@ export const MAIN_CATEGORIES: Category[] = [
               driveId: '1c8hUzQeroYUJr3nGB0BRG229qICj0DqD'
             }
           },
+          {
+            id: 'v-8',
+            title: 'Dokumen Penting dalam Pengadaan Barang/Jasa',
+            directResource: {
+              format: 'Video',
+              driveId: '1mnClqMqKcBK77V2vu8zS8GGLFZjKV-el'
+            }
+          },
           
           {
             id: 'v-ppk-c-1',
@@ -580,7 +588,7 @@ export const MAIN_CATEGORIES: Category[] = [
               driveId: '1C9_W_yWVIa8ZM2LxNkOfHsU0AdnOx1Sj' 
             }
           },
-                    {
+          {
             id: 'v-ppk-c-2',
             title: 'Materi 1 Jenis Kompetensi Melakukan Perencanaan Pengadaan Barang dan Jasa Pemerintah Level 2 PART 2',
             directResource: {
@@ -730,7 +738,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 1 JK Melakukan Perencanaan PBJP Level 3 PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1FVSrf7S7eo_rVB9xQOfaBGm_qP4l3pNr'
+              driveId: '15Q1y3mayTLX-GDQd_M4hVl6DzuWiNQ4V'
             }
           },
           {
@@ -738,7 +746,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 1 JK Melakukan Perencanaan PBJP Level 3 PART 2',
             directResource: {
               format: 'Video',
-              driveId: '1n8PAA2VsYEt6fVziTk1qXJQVyObl7_Q3'
+              driveId: '1gzYf4m2ICIppjW5FzysiPyjXm-9x4EtC'
             }
           },
           {
@@ -746,7 +754,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 1 JK Melakukan Perencanaan PBJP Level 3 PART 3',
             directResource: {
               format: 'Video',
-              driveId: '1Z54NBKaYp364IC7MqskPobSfoU2UWB1n'
+              driveId: '19YuHDHioJGxgGvpb0EAKq5WzrSqBz-HD'
             }
           },
           {
@@ -754,7 +762,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 JK Melakukan Perencanaan PBJP Level 3 PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1GSCp5XqlxeGVyq-H3prgXVtSJZ0EmZI2'
+              driveId: '1NXBueR31ouWLat3mtcw5LsDsimGX_2Pn'
             }
           },
           {
@@ -762,7 +770,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 JK Melakukan Perencanaan PBJP Level 3 PART 2',
             directResource: {
               format: 'Video',
-              driveId: '1EI69kRu_wPTj1wt7ttuRUOHrX_nKwlhP'
+              driveId: '1tfyALr9ZUKyDznKrzJm69NfK-7M7t6q_'
             }
           },
           {
@@ -770,7 +778,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 2 JK Melakukan Perencanaan PBJP Level 3 PART 3',
             directResource: {
               format: 'Video',
-              driveId: '1QargPnq7oxyo2r1aXoCDH6RTxL18H6u1'
+              driveId: '1CrH0YS3RexShVoJfgypnnGc-t23rFnLZ'
             }
           },
           {
@@ -778,7 +786,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 3 JK Melakukan Perencanaan PBJP Level 3 PART 1',
             directResource: {
               format: 'Video',
-              driveId: '1OYp6IBe7SP6l8rQ2s3W6epolTKaMNu5J'
+              driveId: '1sdNfEFuzXSHJOw9p627uCx2RPxFkyICG'
             }
           },
           {
@@ -786,7 +794,7 @@ export const MAIN_CATEGORIES: Category[] = [
             title: 'Materi 3 JK Melakukan Perencanaan PBJP Level 3 PART 2',
             directResource: {
               format: 'Video',
-              driveId: '1A8a6BTQ1vhzGaI9IyqYKFfxsbLXCp-b9'
+              driveId: '1RNS98jzcMUGuUGio8aNwkfR9jyWC7AYm'
             }
           }
         ]
