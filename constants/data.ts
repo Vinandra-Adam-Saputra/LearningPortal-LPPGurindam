@@ -540,6 +540,39 @@ export const MAIN_CATEGORIES: Category[] = [
             }
           },
           {
+            id: 'v-4',
+            title: 'Apa itu PPK Tipe C',
+            directResource: {
+              format: 'Video',
+              driveId: '1j57H4Cg9z9JRPLRvGChxGhza6_LaX10b'
+            }
+          },
+          {
+            id: 'v-5',
+            title: 'Etika dan Prinsip Pengadaan Barang/Jasa',
+            directResource: {
+              format: 'Video',
+              driveId: '1bAQZ-Lewg-Dkkd7P1UNGOU1ozDpjg6tK'
+            }
+          },
+          {
+            id: 'v-6',
+            title: 'Peran & Tanggungjawab PPK Tipe C',
+            directResource: {
+              format: 'Video',
+              driveId: '1Uchq4zq6IfGBtxNPh2kB9VH9EvxqjwLc'
+            }
+          },
+          {
+            id: 'v-7',
+            title: 'Risiko dalam Pengadaan dan Cara Pengendaliannya',
+            directResource: {
+              format: 'Video',
+              driveId: '1c8hUzQeroYUJr3nGB0BRG229qICj0DqD'
+            }
+          },
+          
+          {
             id: 'v-ppk-c-1',
             title: 'Materi 1 Jenis Kompetensi Melakukan Perencanaan Pengadaan Barang dan Jasa Pemerintah Level 2 PART 1',
             directResource: {
